@@ -20,6 +20,8 @@ public class Listas {
 		
 		System.out.println(list.size()); // Tamanho da lista.
 		
+		list.remove("Caetano Veloso"); // Removendo elemento da lista a partir da comparação do valor dele com outro.
+		
 		for (String x : list) { //Pra cada String x pertencente à minha lista list, imprimir o valor de x.
 			System.out.println(x);
 		}
