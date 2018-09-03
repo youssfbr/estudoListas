@@ -22,6 +22,8 @@ public class Listas {
 		
 		list.remove("Caetano Veloso"); // Removendo elemento da lista a partir da comparação do valor dele com outro.
 		
+		list.remove(3); // Removendo pela posição
+		
 		for (String x : list) { //Pra cada String x pertencente à minha lista list, imprimir o valor de x.
 			System.out.println(x);
 		}
