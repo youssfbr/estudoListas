@@ -18,6 +18,8 @@ public class Listas {
 		list.add("Caetano Veloso");
 		list.add(2, "Chico Buarque");
 		
+		System.out.println(list.size()); // Tamanho da lista.
+		
 		for (String x : list) { //Pra cada String x pertencente à minha lista list, imprimir o valor de x.
 			System.out.println(x);
 		}
