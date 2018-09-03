@@ -53,5 +53,9 @@ public class Listas {
 		System.out.println("------------------------------------------");
 		String name = list.stream().filter(x -> x.charAt(0) == 'M').findFirst().orElse(null); //Encontrar elemento na lista que atenda um certo predicado.
 		System.out.println(name);
+		
+		System.out.println("------------------------------------------");
+		String name1 = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null); //Encontrar elemento na lista que atenda um certo predicado.
+		System.out.println(name1);
 	}
 }
