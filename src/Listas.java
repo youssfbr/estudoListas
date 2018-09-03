@@ -16,5 +16,9 @@ public class Listas {
 		list.add("Gal Costa");
 		list.add("Gilberto Gil");
 		list.add("Caetano Veloso");
+		
+		for (String x : list) { //Pra cada String x pertencente à minha lista list, imprimir o valor de x.
+			System.out.println(x);
+		}
 	}
 }
