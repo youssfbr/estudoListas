@@ -49,5 +49,9 @@ public class Listas {
 		for (String x : result) {
 			System.out.println(x);
 		}
+		
+		System.out.println("------------------------------------------");
+		String name = list.stream().filter(x -> x.charAt(0) == 'M').findFirst().orElse(null); //Encontrar elemento na lista que atenda um certo predicado.
+		System.out.println(name);
 	}
 }
