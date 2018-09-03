@@ -39,5 +39,6 @@ public class Listas {
 		System.out.println("-----------------------------------------");
 		
 		System.out.println("Index of Chico Buarque: " + list.indexOf("Chico Buarque")); // Encontra a posição de um elemento
+		System.out.println("Index of Djavan: " + list.indexOf("Djavan")); // Caso não encontre retorna -1
 	}
 }
