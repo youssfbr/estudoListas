@@ -20,14 +20,20 @@ public class Listas {
 		
 		System.out.println(list.size()); // Tamanho da lista.
 		
-		list.remove("Caetano Veloso"); // Removendo elemento da lista a partir da comparação do valor dele com outro.
-		
-		list.remove(3); // Removendo pela posição
+		// list.remove("Caetano Veloso"); // Removendo elemento da lista a partir da comparação do valor dele com outro.
+		// list.remove(3); // Removendo pela posição
 		
 		for (String x : list) { //Pra cada String x pertencente à minha lista list, imprimir o valor de x.
 			System.out.println(x);
 		}
 		
+		System.out.println("-----------------------------------------");
 		
+		// Remover todo mundo que começa com a letra G usando predicado. Função Lambda
+		list.removeIf(x -> x.charAt(0) == 'G'); // Remove todo String x, tal que, x.charAt(0), na posição 0, ou seja, pega a 1a letra, seja igual a G.
+		
+		for (String x : list) {
+			System.out.println(x);
+		}
 	}
 }
